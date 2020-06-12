@@ -2,7 +2,7 @@ if test -z "$1"
 then
     echo "\$Missing repo url"
 else
-    URL=$1
+	URL=$1
 
 	git init
 
